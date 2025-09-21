@@ -1,0 +1,59 @@
+.societe-manager {
+  padding: 20px 0;
+}
+
+.societe-form {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 500px;
+}
+
+.societe-form input,
+.societe-form textarea {
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.societe-form textarea {
+  min-height: 100px;
+}
+
+.societe-form button {
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.societe-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.societe-item button {
+  margin-left: 10px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.societe-item button:first-of-type {
+  background-color: #ffc107;
+  color: black;
+}
+
+.societe-item button:last-of-type {
+  background-color: #dc3545;
+  color: white;
+}

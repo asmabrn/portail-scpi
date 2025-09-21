@@ -1,0 +1,17 @@
+.scpis-container {
+  padding: 40px 0;
+  background-color: #f8f9fa;
+}
+
+.scpis-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 30px;
+  margin-top: 30px;
+}
+
+@media (max-width: 768px) {
+  .scpis-grid {
+    grid-template-columns: 1fr;
+  }
+}
