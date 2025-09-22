@@ -9,14 +9,14 @@ require('dotenv').config();
 
 const app = express();
 
-// Middleware
+
 app.use(cors());
 app.use(express.json());
 
-// Connexion à la base de données
+
 connectMongoDB(); 
 
-// Routes
+
 app.use('/api/auth', authRoutes);
 app.use('/api/societes', societeRoutes);
 app.use('/api/scpis', scpiRoutes);
