@@ -30,7 +30,7 @@ userSchema.pre('save', async function(next) {
   next();
 });
 
-// models/User.js
+
 userSchema.methods.correctPassword = async function(candidatePassword) {
   try {
     return await bcrypt.compare(candidatePassword, this.password);
